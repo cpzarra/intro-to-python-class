@@ -9,7 +9,11 @@ family_shopping_list = {
 }
 
 for name, shop_list in family_shopping_list.items():
-    print name, 'needs to buy: ', shop_list
+	print name, 'needs to buy: ', shop_list 
+
+for key, value in family_shopping_list.items():
+	if 'beef' in value:
+		print key, 'wants beef'
 
 # Changing this later can be accomplished with
 family_shopping_list['fran'].append('strawberries')

@@ -5,6 +5,8 @@ def basementIsOk(temperature, humidity):
         print "The basement is fine"
 
 temp = raw_input("What's the basement's temperature? ")
+temp = int(temp)
 hum = raw_input("What's the basement's humidity percentage? ")
+hum = int(hum)
 
 basementIsOk(temp, hum)
