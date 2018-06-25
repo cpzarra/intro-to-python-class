@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Introduction to Python | Girl Develop It Class 4</title>
+  <title>Introduction to Python | Girl Develop It Session 4</title>
 
     <meta name="description" content="This is the official Girl Develop It Core Intro to Python course. The course is meant to be taught in four two-hour sessions. Each of the slides and practice files are customizable according to the needs of a given class or audience.">
 
@@ -27,16 +27,18 @@
   <div class="reveal">
     <!-- Any section element inside of this container is displayed as a slide -->
     <div class="slides">
-      <!-- Opening slide -->
+      <!-- Block 1: Intro, Review: 5 minutes -->
       <section>
+        <aside class="notes">5 minutes 1/3 slides</aside>
         <img src="images/gdi_logo_badge.png" class="img--bare" height="450px" />
         <div class="box--small">
-          <h3><span class="green">Intro to Python Class 4</span></h3>
+          <h3><span class="green">Intro to Python Session 4</span></h3>
 
         </div>
       </section>
 
       <section>
+        <aside class="notes">5 minutes 1/3 slides</aside>
           <h3>Review</h3>
           <ul class="box list--xtall copy--small">
               <li>Functions</li>
@@ -46,14 +48,18 @@
       </section>
 
       <section>
+        <aside class="notes">5 minutes 1/3 slides</aside>
         <h3>What we will cover for the rest of today</h3>
         <ul class="list--xtall copy--small box">
             <li class="fragment">(Even) More Data Types</li>
-            <li class="fragment">Combining data types</li>
+            <li class="fragment">Combining Data Types</li>
         </ul>
         </section>
 
+        <!-- Block 2: Data Types: minutes -->
+
         <section>
+            <aside class="notes">25(20) minutes 1/6 slides</aside>
             <h3>Data Type: Sets</h3>
             <p class="copy--small">Sets are unordered data types whose elements are unique. Therefore, adding a value to a set that already has it, does nothing.</p>
             <p class="copy--small fragment">Sets can be created with comma separated elements enclosed in {} in Python 2.7 or greater.</p>
@@ -72,6 +78,7 @@ set([1, 2, 3])
         </section>
 
         <section>
+            <aside class="notes">25(20) minutes 2/6 slides</aside>
             <h3>Data Type: Lists of ... Lists</h3>
             <p class="copy--small box--small">As we have already seen, an element in a
             list can be other lists.</p>
@@ -88,6 +95,7 @@ game_board = [
         </section>
 
         <section>
+            <aside class="notes">25(20) minutes 3/6 slides</aside>
             <h3>Nested Lists continued</h3>
             <p class="copy--small box--small">A list can be appended to a list as well</p>
             <pre><code contenteditable class="small python">
@@ -111,6 +119,7 @@ for shop_list in family_shopping_list:
         </section>
 
         <section>
+            <aside class="notes">25(20) minutes 4/6 slides</aside>
             <h3>Lists of Dictionaries</h3>
             <p class="copy--small box--small">One of the most common and useful nested data structures,<br/>is a list of dictionaries</p>
             <pre><code contenteditable class="python">
@@ -133,6 +142,7 @@ for card in hand:
         </section>
 
         <section>
+            <aside class="notes">25(20) minutes 5/6 slides</aside>
             <h3>Dictionary of Lists</h3>
             <p class="copy--small box--small">A dictionary can also contain values that are themselves<br/>other data types, such as lists.</p>
             <div class="fragment"><p class="copy--xsmall box--small">Let's revisit the group of to do lists and find a better representation:</p>
@@ -157,6 +167,7 @@ family_shopping_list['fran'].append('strawberries')
         </section>
 
         <section>
+            <aside class="notes">25(20) minutes 6/6 slides</aside>
             <h3>Means of Combination</h3>
             <p class="copy--small box--small">Lists, dictionaries, and other data types are all<br/>a means of combination.</p>
             <p class="copy--small box--small fragment">They can be freely combined to create the<br/>data structure needed for a particular problem.</p>
@@ -198,17 +209,15 @@ def heal(character, amount):
                   </code></pre>
         </section>
 
-                 </section>
-
                 <section>
                     <h3>Functional Python: Map</h3>
                     <p class="copy--small box--small">Python is a not a purely functional language, but it can be used (and is commonly used) for functional programming.</p>
                     <p class="copy--small box--small">There are four functions that are used for functional programming: Range, Filter, Map, and Reduce</p>
- 
+
                     <p class="copy--small box--small">One commonly used, higher order function<br/>(that is a Python builtin) is called <strong>map</strong></p>
                     <pre><code contenteditable class=" python">
 # Define any function
-def sqaure(number):
+def square(number):
     return number ** 2
 
 # Pass the function to map along with an iterable
@@ -296,14 +305,23 @@ squares = map(square, range(10))
 
         <section>
         <h3>Survey</h3>
-        <p class="box--small copy--small fragment">Please fill out this <a href="http://bit.ly/GDI-NYC">survey</a> to let us know how you felt about this class, and if there's any ways we can improve.</p>
+        <p class="box--small copy--small fragment">Please fill out this <a href="http://bit.ly/gdi-dayton-class-survey">survey</a> to let us know how you felt about this class, and if there's any ways we can improve.</p>
         </section>
- 
+
         <section>
-            <h3>Questions?</h3>
+          <img src="images/gdi_logo_badge.png" class="img--bare" height="450px" />
+          <div class="box--small">
+            <h3><span class="green">Intro to Python</span></h3>
+            <p class=""><small>@gdiprovidence &nbsp; | &nbsp; #GDIPVD</small></p>
+
+            <p class="copy--small box--small">
+              <a href="class1.html">Session 1</a> &nbsp; | &nbsp;
+              <a href="class2.html">Session 2</a> &nbsp; | &nbsp;
+              <a href="class3.html">Session 3</a> &nbsp; | &nbsp;
+              <a href="class4.html">Session 4</a>
+            </p>
+          </div>
         </section>
-
-
     </div>
 
     <footer>
